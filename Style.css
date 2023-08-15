@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    background-color: #121139;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+.diamond{
+    width: 50px;
+    height: 40px;
+        
+}
+
+.Cabecalho{
+    flex-direction: row;
+    display: flex; 
+    align-items: center;
+    color: #ffffff;
+}
+
+.SABLE{
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.conteudo{
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 20%;
+}
+
+.titulo-principal{
+
+    background-image: linear-gradient(#0b0869,#5a29b4,#390697,#6817ff);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 0px;
+    font-size: 30px;
+    
+}
+
+.titulo-secundario{
+    color: azure;
+    margin-top: 0%;
+    font-size: 45px;
+    margin-bottom: 1%;
+}
+
+.paragrafo{
+    font-size: 14px;
+    color: aliceblue;
+    margin-bottom: 80px;
+    
+}
+
+.Paragrafo{
+    font-size: 30px;
+}
+
+.paragrafo1{
+    font-size: 16px;
+    color: #601ae4;
+    
+}
+
+.rodape {
+    font-size: 10px;
+    margin-left: 20%;
+    color: #ffffff;
+}
+
+.rodape1{
+    font-size: 11px;
+    margin-left: 0%;
+    color: #ffffff;
+}
+
+.instagram{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 1px;
+}
+
+.instagram{
+    background-image: linear-gradient(#ffffff,#ffffff,#ffffff);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+
+    margin: 0 15px;
+    padding: 10px 35px;
+
+
+    border: 2px solid #390697;
+    position: relative;
+}
+
+.instagram ::before{
+    content: attr(data-text);
+    position: absolute;
+    color: #fff;
+    width: 260px;
+}
+
+.navigation_header{
+    margin-left: 50%;
+}
+
+.contato{
+    
+    margin-left: 30px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.sobre{
+    
+    margin-left: 90px;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* pagina 2- Sobre MIM */
+
+.conteudo11{
+    font-size: 10px;
+    color: #fff;
+}
+
+.conteudo22{
+    font-size: 10px;
+    color: #fff;
+}
+
+.logo2{
+    width: 10px;
+    height: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.voltar{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 0%;
+    color: #fff;
+}
+
